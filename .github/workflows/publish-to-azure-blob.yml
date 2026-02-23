@@ -3,7 +3,7 @@ name: Publish Source to Azure Blob Storage
 # Triggers on every push to master, and can be run manually from the Actions tab.
 on:
   push:
-    branches: [ master ]
+    branches: [ dev ]
   workflow_dispatch:
 
 # To set up the required secret, go to:
